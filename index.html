@@ -1,15 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>WEB Сайт</title>
 </head>
 
 <body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-navigator">
+                <ul>
+                    <li>
+                        <a href="#">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a class="login" href="#">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="index-logo">
+            <img src="img/index-logo.png" width="368" height="204" alt="Логотип">
+        </div>
+        <section class="features">
+            <div class="features-item">
+                <b class="feature-name">Быстро</b>
+                <p>Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем </p>
+            </div>
+            <div class="features-item">
+                <b class="feature-name">Круто</b>
+                <p>Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем </p>
+            </div>
+            <div class="features-item">
+                <b class="feature-name">Дорого</b>
+                <p>Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем </p>
+            </div>
+        </section>
+        <div class="index-content">
+            <div class="index-content-left">
+                <h2 class="index-content-title">Новости</h2>
+                <ul class="news-preview">
+                    <li>
+                        <p>Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем </p>
+                    </li>
+                    <time datetime="2017-01-03">3 января</time>
+                    <li>
+                        <p>Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем </p>
+                    </li>
+                    <time datetime="2017-01-03">13 января</time>
+                </ul>
+                <a class="btn" href="#">Все новости</a>
+            </div>
+            <div class="index-content-right">
+                <h2 class="index-content-title">Фотогалерея</h2>
+                <div class="gallery">
+                    <figure class="gallery-content">
+                        <img src="img/foto-1.jpg" width="286" height="164" alt="">
+                    </figure>
+                    <button class="btn gallery-prev">Назад</button>
+                    <button class="btn gallery-next">Вперед</button>
+                </div>
+            </div>
+            <div class="index-content">
+                <div class="index-content-left">
+                    <h2 class="index-content-title">Контактная информация</h2>
+                    <ul class="news-preview">
+                        <li>
+                            <p>Мы делаем Мы делаем Мы делаем<br> Мы делаем Мы делаем Мы делаем </p>
+                        </li>
+                        <li>
+                            <p>Мы делаем Мы делаем<br> Мы делаем Мы делаем</p>
+                        </li>
+                    </ul>
+                    <a class="btn" href="#">Как проехать</a>
+                    <a class="btn" href="#">Обратная связь</a>
+                </div>
+                <div class="index-content-right">
+                    <h2 class="index-content-title">Записаться</h2>
+                    <p>Мы делаем Мы делаем Мы делаем Мы делаем Мы делаем </p>
+                    <form class="appointment-form" action="http://google.com" method="post">
+                        <input type="text" name="date" value="" placeholder="Дата">
+                        <input type="text" name="time" value="" placeholder="Время">
+                        <input type="text" name="name" value="" placeholder="Ваше имя">
+                        <input type="tel" name="phone" value="" placeholder="Телефон">
+                        <button class="btn" type="submit">Отправить</button>
+                    </form>
 
+                </div>
+
+            </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container">
+            <section class="footer-contact">
+                Мы делаем Мы делаем<br> Мы делаем Мы делаем<br> Мы делаем Мы делаем<br>
+                <a href="#">Как нас найти</a><br> Мы делаем Мы делаем
+            </section>
+            <section class="footer-social">
+                <p>Давайте дружить</p>
+                <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+                <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            </section>
+            <section class="footer-copyright">
+                <p>Разработано</p>
+                <a class="btn" href="http://google.com">Google</a>
+            </section>
+        </div>
+    </footer>
 </body>
 
 </html>
